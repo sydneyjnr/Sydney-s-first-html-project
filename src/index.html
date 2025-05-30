@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My first webpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img src="./images dir/new-logo.jpg" alt="J logo" id="logo">
+    </div>
+    <img id="banner" src="./images dir/new-bannner.jpg" alt="Banner" height="240">
+    <h1>About Sydney</h1>
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">Sydney is a tech education platform empowering over 3,000 learners with hands-on
+                training in software
+                development,
+                data science, cloud computing, and more. We deliver beginner-friendly, project-based courses designed to
+                build
+                real-world
+                skills and prepare learners for successful tech careers. Learn, grow, and thrive with Joivan.</p>
+            <p>
+                We also offer 2 industry-focused bootcamps
+            <ol>
+                <li>
+                    <a href="https://jovian.com/learn/data-analysis-with-python-zero-to-pandas">Sydney Full Stack
+                        Developer
+                        Bootcamp</a>
+                </li>
+                <li>
+                    <a href="https://jovian.com/learn/data-structures-and-algorithms-in-python">Sydney Data Science
+                        Bootcamp</a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="team"> <img id="team-image" src="./images dir/team.jpg" alt="team"></div>
+    </div>
+
+
+    <h2>Job Opportunities</h2>
+    <table id="jobs-table">
+        <tr class="jobs-header-row">
+            <th rowspan="2">Job Title</th>
+            <th colspan="2">Location</th>
+            <th rowspan="2">Salary</th>
+            <th rowspan="2">Posted On</th>
+        </tr>
+        <tr class="jobs-header-row">
+            <th>Country</th>
+            <th>City</th>
+        </tr>
+        <tr class="jobs-data-row">
+            <td>Frontend Developer</td>
+            <td>Bengaluru</td>
+            <td>India</td>
+            <td>₦12,000,000</td>
+            <td>Mar 3, 2023</td>
+        </tr>
+        <tr class="jobs-data-row">
+            <td>Full Stack Developer</td>
+            <td>New Delhi</td>
+            <td>India</td>
+            <td>₦15,000,000</td>
+            <td>Feb 1, 2023</td>
+        </tr>
+        <tr class="jobs-data-row">
+            <td>Data Scientist</td>
+            <td>San Francisco</td>
+            <td>USA</td>
+            <td>$175,000</td>
+            <td>Dec 22, 2022</td>
+        </tr>
+        <tr class="jobs-data-row">
+            <td>Machine Learning Engineer</td>
+            <td colspan="2" id="remote">Remote</td>
+            <td>$80,000</td>
+            <td>Sep 19, 2022</td>
+        </tr>
+    </table>
+    <div id="application">
+        <h2>Submit Your Application</h2>
+        <form action="" id="application-form">
+            <div class="form-div">
+                <label for="name" class="label">Full Name:</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="Sydney Christopher">
+            </div>
+            <div class="form-div">
+                <label for="email" class="label">Email:</label><br>
+                <input type="email" id="email" name="email-address" required placeholder="SydneyChristopherJnr@gmail">
+            </div>
+            <div class="form-div">
+                <label for="phone" class="label">Phone:</label><br>
+                <input type="tel" id="phone" name="phone" required placeholder="+2349016216784">
+            </div>
+            <div class="form-div">
+                <label for="date" class="label">Date:</label><br>
+                <input type="date" id="date" name="date" required placeholder="dd-mm-yyyy">
+            </div>
+            <div class="form-div">
+                <label for="position" class="label">Position:</label><br>
+                <select name="Position Applied" id="select">
+                    <option value="">Select Position</option>
+                    <option value="frontend">Frontend Developer</option>
+                    <option value="backend">Full Stack Developer</option>
+                    <option value="data-scientist">Data Scientist</option>
+                    <option value="machine-learning">Machine Learning Engineer</option>
+                </select>
+            </div>
+            <div class="form-div">
+                <label for="resume">Upload Resume:</label><br>
+                <input type="file" id="resume" name="resume" required accept=".pdf, .doc, .docx">
+            </div>
+            <div class="form-div">
+                <label for="coverletter">Cover Letter:</label><br>
+                <textarea name="coverletter" id="cover" rows="5"></textarea>
+            </div>
+            <div class="form-div">
+                <label for="checkbox"> <input type="checkbox" id="checkbox" name="checkbox" required>
+                I agree to the terms and conditions
+                </label>
+                <!-- <input type="file" id="resume" name="resume" required accept=".pdf, .doc, .docx"> -->
+            </div>
+            <div>
+                <input type="submit" value="submit" id="submit">
+            </div>
+        </form>
+
+    </div>
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">Course</a>
+            </li>
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">Programs</a>
+            </li>
+            <li>
+                <a href="https://youtube.com/@jovianhq/" target="_blank">YouTube</a>
+            </li>
+        </ul>
+        <span id="copyright">© Sydney 2025</span>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* background-color: #444444; */
+  font-family: "Dancing Script", cursive;
+  /* background: linear-gradient(to right,#1e3c72, #2a2f4a) */
+  color: #444444;
+}
+h1,h2 {
+  font-family: "Roboto", sans-serif;
+  color: #222222;
+}
+#navbar {
+  padding: 8px;
+  margin: 0;
+}
+#logo {
+  height: 90px;
+}
+h1 {
+  text-align: center;
+  color: darkslategrey;
+}
+#banner {
+  width: 100%;
+  object-fit: cover;
+}
+#about {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 8px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+    color: #1d4ed8;
+}
+#team {
+  width: 50%;
+}
+#description {
+  width: 50%;
+  padding-right: 0px;
+}
+
+#team-image {
+  border-radius: 5px;
+  width: 100%;
+  height: 250px;
+  /* margin-right: 10px; */
+}
+.location {
+  color: gray;
+  margin-bottom: 16px;
+}
+h2 {
+  text-align: center;
+}
+#application {
+  max-width: 800px;
+  padding: 0 8px;
+  margin: 0 auto;
+}
+.label {
+  font-weight: 400;
+  font-size: larger;
+}
+.form-div {
+  margin: 16px;
+}
+.form-div textarea {
+  width: 70%;
+}
+#submit {
+  background-color: rgb(62, 117, 147);
+  color: #c3bcbc;
+}
+#submit:hover {
+  background-color: rgb(54, 50, 50);
+}
+#application-form label {
+font-weight: 600;
+}
+#application-form input {
+  padding: 4px;
+  margin-top: 4px;
+  border-radius: 7px;
+  border: 2 solid gray;
+}
+#select {
+  background-color: #c3bcbc;
+  /* border-bottom: 1px; */
+}
+#jobs {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+#jobs-table {
+  width: 100%;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+.jobs-header-row th {
+  border: 1px solid gray;
+  padding: 8px;
+  background-color: rgb(249, 239, 239);
+  text-align: center;
+  color: #222222;
+}
+.jobs-data-row td {
+  border-right: 1px solid gray;
+  padding: 8px;
+}
+#jobs-table tr:nth-child(odd) {
+background-color: azure;
+}
+#cover {
+  padding: 7px;
+}
+#remote {
+    border-top: 1px solid gray;
+}
+/* #jobs-table tr:nth-child(even) {
+background-color: azure;
+} */
+
+h3 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.apply {
+  float: right;
+}
+#footer {
+  background-color: gainsboro;
+  padding: 8px;
+  margin-top: 32px;
+  text-align: center;
+}
+#footer-links {
+  list-style: none;
+}
+#footer-links li {
+  display: inline;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+#copyright {
+  color: gray;
+}
